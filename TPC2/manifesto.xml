@@ -1,1 +1,27 @@
 
+<?xml version="1.0" encoding="utf-8"?>
+<manifesto>
+    <meta>
+        <título>TPC2</título>
+        <subtítulo>Servidor dos Registos do Dataset</subtítulo>
+        <data>2023-02-26</data>
+        <autor>
+            <nome>João Duarte Laranjo Cerquido</nome>
+            <id>PG50469</id>
+            <gitlink>https://github.com/Grodd074/RPCW2023</gitlink>
+        </autor>
+        <uc>RPCW2023</uc>
+    </meta>
+    <resumo>
+        <p>1. Processamento do dataset com uma script em Python, para desmembrar o dataset criando um ficheiro para cada registo: arq1.xml, arq2.xml, ..., arqn.xml</p>
+        <p>2. Criar um servidor node que sirva os vários registos</p>
+        <p>3. Criar a página "index.html" (usando Python) para ser servida quando alguém pede: "localhost:porta/"</p>
+        <p>4. Converter os arqx.xml em arqx.html, usando o BeautifulSoup ou outro e servir os registos em HTML.</p>
+    </resumo>
+    <resultados>
+        <resultado path="https://github.com/Grodd074/RPCW2023/blob/main/TPC2/Xml2Html.py">Conversor XML para HTML</resultado>
+        <resultado path="https://github.com/Grodd074/RPCW2023/blob/main/TPC2/divide.py">Divisior do dataset de arqueositios</resultado>
+        <resultado path="https://github.com/Grodd074/RPCW2023/blob/main/TPC2/geraHTML.py">Script geradora de index.html</resultado>
+        <resultado path="https://github.com/Grodd074/RPCW2023/blob/main/TPC2/servidor.js">Servidor NodeJS que serve os registos</resultado>
+    </resultados>
+</manifesto>
