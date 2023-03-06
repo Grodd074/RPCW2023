@@ -19,9 +19,8 @@
         <p>5. Top10 de profissões: o sistema deverá responder com uma página onde se possa consultar as 10 profissões mais exercidas e aceder à lista de pessoas de cada uma das profissões.</p>  
   </resumo>
     <resultados>
-        <resultado path="https://github.com/Grodd074/RPCW2023/blob/main/TPC2/Xml2Html.py">Conversor XML para HTML</resultado>
-        <resultado path="https://github.com/Grodd074/RPCW2023/blob/main/TPC2/divide.py">Divisior do dataset de arqueositios</resultado>
-        <resultado path="https://github.com/Grodd074/RPCW2023/blob/main/TPC2/geraHTML.py">Script geradora de index.html</resultado>
-        <resultado path="https://github.com/Grodd074/RPCW2023/blob/main/TPC2/servidor.js">Servidor NodeJS que serve os registos</resultado>
+        <resultado path="https://github.com/Grodd074/RPCW2023/blob/main/TPC3/index.html">Página Index</resultado>
+        <resultado path="https://github.com/Grodd074/RPCW2023/blob/main/TPC3/mypages.js">Ficheiro javascript que gera páginas HTML</resultado>
+        <resultado path="https://github.com/Grodd074/RPCW2023/blob/main/TPC3/server.js">Servidor NodeJS que serve os registos</resultado>
     </resultados>
 </manifesto>
