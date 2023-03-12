@@ -12,15 +12,18 @@
         <uc>RPCW2023</uc>
     </meta>
     <resumo>
-        <p>1. Listar as pessoas: apresenta uma lista de indivíduos numa tabela exibindo os campos id, nome, idade, sexo e cidade;</p>
-        <p>2. Ao clicar numa linha da tabela o sistema deverá responder com uma página HTML com toda a informação da pessoa;</p>
-        <p>3. Distribuição por sexo: o sistema deverá responder com uma página onde se possa consultar o número de pessoas de cada sexo e aceder à lista dessas pessoas;</p>
-        <p>4. Distribuição por desporto: o sistema deverá responder com uma página onde se possa consultar o número de pessoas que pratica cada um dos desportos (esta lista deverá estar ordenada descendentemente) e aceder à lista dessas pessoas;</p>
-        <p>5. Top10 de profissões: o sistema deverá responder com uma página onde se possa consultar as 10 profissões mais exercidas e aceder à lista de pessoas de cada uma das profissões.</p>  
+        <p>1. Create a Single Page Application (SPA) for toDo lists;</p>
+        <p>2. Main page should have 3 areas: insert form, toDo task list and resolved task list;</p>
+        <p>3. Task model is composed by: dateDued (deadline); who (who is supposed to do it) and what (task description);</p>
+        <p>4. Add edit and delete operations to both lists;</p>
+        <p>5. When a task is submitted through the form, it will appear in toDO list;</p>  
+        <p>6. Add a button to each task in toDo list to change the status to solved (task should move form one list to the other);</p>
+        <p>7. Possible extras: maintain lists of task types, task descriptions, ..., that are preloaded into select components... make a nice interface, even responsive.</p>
   </resumo>
     <resultados>
-        <resultado path="https://github.com/Grodd074/RPCW2023/blob/main/TPC3/index.html">Página Index</resultado>
-        <resultado path="https://github.com/Grodd074/RPCW2023/blob/main/TPC3/mypages.js">Ficheiro javascript que gera páginas HTML</resultado>
-        <resultado path="https://github.com/Grodd074/RPCW2023/blob/main/TPC3/server.js">Servidor NodeJS que serve os registos</resultado>
+        <resultado path="https://github.com/Grodd074/RPCW2023/blob/main/TPC4/static.js">Scrip que serve recursos estáticos</resultado>
+        <resultado path="https://github.com/Grodd074/RPCW2023/blob/main/TPC4/mypage.js">Ficheiro javascript que gera página HTML</resultado>
+        <resultado path="https://github.com/Grodd074/RPCW2023/blob/main/TPC4/server.js">Servidor NodeJS</resultado>
+        <resultado path="https://github.com/Grodd074/RPCW2023/blob/main/TPC4/tarefas.json">Ficheiro json que serve como base de dados</resultado>
     </resultados>
 </manifesto>
