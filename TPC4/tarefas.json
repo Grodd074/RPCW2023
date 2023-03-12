@@ -1,0 +1,96 @@
+{
+  "tarefas_por_realizar": [
+    {
+      "whatToDo": "EDITADO10",
+      "whoToDo": "Adriana1",
+      "deadline": "2025-04-05",
+      "id": 4
+    },
+    {
+      "whatToDo": "Site BeChloe 1",
+      "whoToDo": "Je",
+      "deadline": "2023-03-31",
+      "id": 7
+    },
+    {
+      "whatToDo": "Ir ao gym",
+      "deadline": "2023-03-10",
+      "whoToDo": "Laranjo",
+      "id": 13
+    },
+    {
+      "whatToDo": "Dar aula guitarra Outeiro",
+      "whoToDo": "João",
+      "deadline": "2023-03-13",
+      "id": 16
+    },
+    {
+      "whatToDo": "nova tarefa",
+      "whoToDo": "eu",
+      "deadline": "2023-03-12",
+      "id": 17
+    }
+  ],
+  "tarefas_realizadas": [
+    {
+      "whatToDo": "Ir comprar pão de sementes",
+      "whoToDo": "Ana",
+      "deadline": "2023-03-12",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "whatToDo": "Lavar o carro",
+      "whoToDo": "João",
+      "deadline": "2023-03-16"
+    },
+    {
+      "id": 10,
+      "whatToDo": "Cortar relva",
+      "whoToDo": "Gonçalves",
+      "deadline": "2023-03-22"
+    },
+    {
+      "id": 13,
+      "whatToDo": "Aspirar a casa",
+      "whoToDo": "João Esteves",
+      "deadline": "2023-03-19"
+    },
+    {
+      "whatToDo": "Filhos",
+      "whoToDo": "Cerquido",
+      "deadline": "2030-01-01",
+      "id": 18
+    },
+    {
+      "whatToDo": "Prancha",
+      "whoToDo": "Besta",
+      "deadline": "2023-04-05",
+      "id": 19
+    },
+    {
+      "whatToDo": "Fazer uma Coisa",
+      "whoToDo": "Grodd",
+      "deadline": "2023-05-01",
+      "id": 20
+    },
+    {
+      "whatToDo": "Ir aos avós de Seixas",
+      "whoToDo": "JDLC",
+      "deadline": "2023-03-12",
+      "id": 21
+    },
+    {
+      "whatToDo": "Andar de bicicleta",
+      "whoToDo": "JEG",
+      "deadline": "2023-03-12",
+      "id": 22
+    },
+    {
+      "whatToDo": "Passar roupa a ferro",
+      "whoToDo": "Esteves Gonçalves",
+      "deadline": "2023-03-14",
+      "id": 23
+    }
+  ]
+}
