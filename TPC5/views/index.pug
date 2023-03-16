@@ -1,0 +1,58 @@
+extends layout
+
+block content
+  form.w3-container.w3-half(method="POST" action="/tarefas_por_realizar/add/")
+    .w3-card.w3-center.w3-black
+      h2 Adicionar Tarefas
+        button.w3-button(type="submit") +
+      
+      fieldset
+        legend Tarefa:
+        label O que deve ser feito?
+        input.w3-input.w3-round(type="text" name="whatToDo")
+        label Quem faz?
+        input.w3-input.w3-round(type="text" name="whoToDo")                     
+        label Deadline
+        //- value=
+        input(type="date" id="start" name="deadline" value="#{data}" min="2023-03-01" max="2024-01-31") 
+
+
+  //- TODO LIST
+  .w3-container.w3-rest
+    .w3-card.w3-center
+        h2 Tarefas por Realizar
+
+        table.w3-table-all.w3-hoverable
+          tr
+            th What
+            th Who
+            th Deadline
+            th OPs
+          each tarefa in lTodo
+            tr               
+              td= tarefa.whatToDo
+              td= tarefa.whoToDo
+              td= tarefa.deadline
+              td                    
+                a(href="/tarefas_por_realizar/done/" + tarefa.id) [Done]              
+                a(href="/tarefas_por_realizar/delete/" + tarefa.id) [Del] 
+                a(href="/tarefas_por_realizar/edit/" + tarefa.id) [Edit]
+  //- DONE LIST
+  .w3-container.w3-half
+    .w3-card.w3-center
+        h2 Tarefas Realizadas
+
+        table.w3-table-all.w3-hoverable
+          tr
+            th What
+            th Who
+            th Deadline
+            th OPs
+          each tarefa in lDone
+            tr               
+              td= tarefa.whatToDo
+              td= tarefa.whoToDo
+              td= tarefa.deadline
+              td                    
+                a(href="/tarefas_realizadas/delete/" + tarefa.id) [Del] 
+                a(href="/tarefas_realizadas/edit/" + tarefa.id) [Edit]
